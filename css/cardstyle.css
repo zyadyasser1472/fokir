@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+}
+.card {
+    width: 598px;
+    height: 772px;
+    background-color: #fff;
+    position: absolute;
+    top: 0%;
+    margin-top:30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    border-radius: 6px;
+}
+.header-card {
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    
+}
+.header-card h2{
+    font-family: "Source Sans 3",serif ;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    color: #ff305b;
+    text-transform: capitalize;
+    margin: 0;
+}
+.header-card a i {
+    cursor: pointer;
+}
+.header-card i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 15px;
+    color: #ccc;
+}
+.header-card i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.header-card i:hover {
+    color: #333;
+}
+.img-wrapper {
+    padding: 15px 15px 15px 15px;
+}
+.img-wrapper img {
+    width: 100%;
+}
+.card-text {
+    padding-inline:15px ;
+    margin-bottom: 10px;
+}
+.card-text p {
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
+    color: #555;
+    line-height: 1.42857;
+}
+.card-details {
+    list-style: outside none none;
+    padding-inline: 15px;
+}
+.card-details li {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: normal;
+    color: rgb(85, 85, 85);
+    line-height: 25px;
+}
+.card-details li i {
+    font-size: 14px;
+    color: rgb(255, 48, 91);
+    margin-right: 10px;
+}
+.card-details a {
+    text-decoration: none;
+    color: #ff305b;
+}
+.card-title h3{
+    margin: 15px 0 10px;
+    padding-inline: 15px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
+}
+.card-details a:hover{
+    text-decoration: underline;
+}
+.card-social {
+    padding-inline: 15px;
+}
+.card-social a {
+    color: rgb(85, 85, 85);
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+.card-social a i {
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+}
+.card-social a i:hover {
+    color: #ff305b;
+}
+
+
+
